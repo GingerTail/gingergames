@@ -1,0 +1,87 @@
+body {
+  background-color:rgb(207, 207, 207);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.loader{
+  position: absolute;
+  left:45%;
+  top:40%;
+}
+
+
+
+a:hover{
+  text-decoration: none;
+}
+
+h4{
+  font-weight: 600
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.banner{
+  filter: brightness(90%)
+}
+.banner:hover{
+  filter: brightness(100%)
+}
+
+/*Footer PART */
+.footer{
+  text-align: center;
+  color:#eee;
+  background-color: #1b1b1b;
+  padding-top:2rem;
+  padding-bottom:3rem;
+  width: 100%;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#news-nav{
+  margin-bottom: 0.5rem;
+background-color: #000000d5;
+margin-right: 2rem;
+margin-left: 1rem;
+border-radius: 5px;
+border: 2px 0px 2px 0px;
+border-radius: 5px 5px 0px 0px;
+}
+
+#news-nav li{
+  flex-grow: 1;
+  border-right: 1px solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      #eee, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  
+}
+
+#news-nav li a{
+  color:white;
+  text-align:center;
+
+  
+}
+
+.detailSrc{
+  width:200px;
+  min-height: 120px;
+  max-height: 120px;
+}

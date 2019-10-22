@@ -111,7 +111,6 @@ const mapStateToProps = reduxStore => {
       id={games._id}
       title={games.title}
       description={games.description.slice(0,500)}
-      imgArray={games.detailSrc}
       />
   </div>
   )

@@ -12,29 +12,6 @@ const mapStateToProps = reduxStore => {
   return reduxStore;
 };
 
-const mapDispatchToProps = dispatch => ({
-      fetchData:()=>
-      dispatch(handleFetchData())
-})
-
-const handleFetchData= () =>{
-  return async function(
-      dispatch,
-      getState
-  ){
-      var response = await fetch("http://localhost:3450/games",  {method: "GET" });
-      if(response.ok){
-          console.log("Product GET Successfully");
-              var result= await response.json()
-      }else{
-          alert("Product NOT GET Successfully");
-      }
-      dispatch({
-          type:"STORE_DATA",
-          payload: result
-      })
-  }
-}
 
 
 class Main extends Component {
@@ -42,10 +19,6 @@ class Main extends Component {
             loader: false
         }
 
-      componentWillMount = async () =>{  
-          await this.props.fetchData();
-
-      } 
   
   render() {
     return (
@@ -89,7 +62,6 @@ class Main extends Component {
         <hr />
         <div className="mt-4 container">
           <NewsNav />
-     {/*      <NewsTest gameList={this.props.gameList}/> */}
         </div>
         <Footer />
         </div>
@@ -99,6 +71,4 @@ class Main extends Component {
 }
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Main);
+  mapStateToProps)(Main);

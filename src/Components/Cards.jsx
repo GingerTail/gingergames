@@ -19,10 +19,9 @@ CheckHover= () =>{
   render() {
     return (
         <div className="card-col" onMouseEnter={this.CheckHover} onMouseLeave={this.CheckHover}>
-          <div className="contr">
-
-        <img src={this.props.cardImg} className="img-fluid" height="500px"/>
-        <div className=" cust-cont-card m-2">
+    
+        <img src={this.props.cardImg} className="card-img img-fluid"/>
+        <div className="m-2">
           <p><strong>{this.props.title1}</strong></p>
           <div className="float-right m-1 d-flex card-text">
             <p className="card-price pl-2 pr-2"><strong>10%</strong></p>
@@ -30,7 +29,7 @@ CheckHover= () =>{
             <i className={this.state.hover ? "d-flex fas fa-shopping-cart right mt-2 ml-1" : "d-none fas fa-shopping-cart right"} />
           </div> 
         </div>
-          </div>
+
         </div>
 
      

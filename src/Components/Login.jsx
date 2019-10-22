@@ -12,7 +12,7 @@ class LoginPage extends Component{
             <img src="https://i.pinimg.com/originals/0a/4f/6c/0a4f6c783dcc0e048b5de17d419174e7.png" alt="login-img"/>
          </div>
            <div className="image-l">
-            <img src="https://png2.kisspng.com/sh/c7b626dc05b81750dc61404838fd8c7d/L0KzQYm3VcE4N5N5j5H0aYP2gLBuTfZqdpJxRdhqboTkg8q0lvlqNaNqhdN0ZT33ebfoTfxwa5xteeR9LXPvf8brTgN1epprRadqZnS1QrbqUvI1OmQ2Rqg6N0W0QYm7UcUzPmY4UKsDOEG6R4O1kP5o/kisspng-final-fantasy-vii-remake-tifa-lockhart-cloud-strif-5afd22ec2b4231.6175118415265389881772.png" alt="login-img"/>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f50a1f7-fbc5-4950-8e9e-80efc76a8f70/d6f5riu-8bb9940e-1ac8-4f8d-adfe-5f46bda8d681.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlmNTBhMWY3LWZiYzUtNDk1MC04ZTllLTgwZWZjNzZhOGY3MFwvZDZmNXJpdS04YmI5OTQwZS0xYWM4LTRmOGQtYWRmZS01ZjQ2YmRhOGQ2ODEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MznunEAbBp_XG1OgLJ9dSR1DJjBZjw3sZnq-LkIHxf4" alt="login-img"/>
          </div>  
          
             <div className="login-container">

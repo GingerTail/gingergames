@@ -31,7 +31,6 @@ export default class PopsOver extends React.Component {
                 onMouseEnter={this.hoverOn}
                  onMouseLeave={this.hoverOff} 
                  id={this.props.id}
-                 imgArray={this.props.imgArray}
                 >
                     <div className= "fade-item container-fluid" >
                         <div className="row">
@@ -39,7 +38,6 @@ export default class PopsOver extends React.Component {
                              <h2>{this.props.title}
                             </h2>
                              <Multicar id={this.props.id}
-                                        imgArray={this.props.imgArray}
                              />
                              <p className="text-left mt-3">{this.props.description} ...</p>
                             </div>

@@ -23,7 +23,6 @@ const responsive = {
 };
 
 const mapStateToProps = reduxStore => {
-  console.log(reduxStore)
   return reduxStore;
 };
 
@@ -33,12 +32,6 @@ class Multicar extends Component{
         this.state={
             imgArray: [],
         }
-    }
-
-    componentDidMount= () =>{
-
-      this.setState({imgArray: this.props.gameList.filter(filter => filter._id === this.props.id)})
-
     }
 
     render(){
@@ -61,7 +54,7 @@ class Multicar extends Component{
   itemClass="carousel-item-padding-40-px"
   id={this.props.id}
 >
-  {this.props.imgArray.map((games, index) =>{
+  {this.props.gameList.filter(filter => filter._id == this.props.id)[0].detailSrc.map((games, index) =>{
     return(
   <div key={index}>
       <img src={games} className="img-fluid detailSrc"/>

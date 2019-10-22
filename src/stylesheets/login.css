@@ -27,13 +27,14 @@
 }
 .image-l{
     position: absolute;
-    bottom:0;
-    right:78%;
+    bottom:0%;
+    top:15%;
+    right:60%;
    
 }
 
 .image-l img{
     -webkit-filter: grayscale(80%); /* Safari */
   filter: grayscale(80%);
-    max-width:420px
+    max-width:700px
 }

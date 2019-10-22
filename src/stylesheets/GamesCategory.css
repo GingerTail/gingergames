@@ -1,0 +1,21 @@
+.game-cat-container{
+    margin-top:7rem;
+}
+.input-group{
+    margin: 0 auto;
+    margin-left:12rem
+}
+.search-input{
+
+    width:700px;
+    height:40px
+}
+#filter-sbar{
+    box-shadow: 0px 0px 0px !important;
+    margin: 0;
+        margin-bottom: 0px;
+    padding-bottom: 0.6rem;
+    padding-top:0.6rem;
+    border-radius: 2px 0px 0px 2px;
+    margin-bottom: 0.3rem;
+}

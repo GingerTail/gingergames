@@ -14,7 +14,7 @@ import {
 import banner from "./bannerFlag.png"
 import "../stylesheets/navbar.css";
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router, Link
 } from "react-router-dom";
 
 export default class NavBar extends React.Component {
@@ -34,8 +34,6 @@ export default class NavBar extends React.Component {
   }
   render() {
     return (
-      <Router>
-
       <div>
         <Navbar id="custom-nav" className="fixed-top" expand="md">
           <NavbarBrand href="/">
@@ -50,22 +48,22 @@ export default class NavBar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right className="animated fadeIn faster">
                   <DropdownItem>
-                    Action
+                  <Link to={"/category/action"}>Action</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Adventure
+                  <Link to={"/category/adventure"}>Adventure</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    RPG
+                  <Link to={"/category/rpg"}>RPG</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Strategy
+                  <Link to={"/category/strategy"}>Strategy</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Indie
+                  <Link to={"/category/indie"}>Indie</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Simulation
+                  <Link to={"/category/simulation"}>Simulation</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -92,7 +90,7 @@ export default class NavBar extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="https://github.com/GingerTail/gingergames">GitHub</NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
@@ -107,7 +105,6 @@ export default class NavBar extends React.Component {
           </Collapse>
         </Navbar>
       </div>
-      </Router>
     );
   }
 }

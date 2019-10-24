@@ -1,0 +1,26 @@
+.info-game-container{
+    overflow: hidden;
+    margin-top:2rem;
+}
+.banner{
+    margin-top:4rem;
+}
+#info-game-text{
+    margin-top:2rem;
+}
+#info-game-text h1{
+    font-weight: 500;
+}
+#info-game-text p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.info-game-detail{
+    margin-top: 1rem;
+}
+#info-game-price{
+    margin-top:1rem;
+    float:right;
+    margin-right:2rem;
+    margin-bottom:2rem;
+}

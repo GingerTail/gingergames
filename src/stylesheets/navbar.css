@@ -35,3 +35,6 @@
     left: 55%;
     top: 91%;
 }
+.navlink-search .dropdown-item .nav-link{
+  color: black;
+}

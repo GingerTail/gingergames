@@ -56,7 +56,7 @@ class Multicar extends Component{
 >
   {this.props.gameList.filter(filter => filter._id == this.props.id)[0].detailSrc.map((games, index) =>{
     return(
-  <div key={index}>
+  <div className="d-block" key={index}>
       <img src={games} className="img-fluid detailSrc"/>
   </div>
     )

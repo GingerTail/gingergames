@@ -1,7 +1,9 @@
 import React from 'react';
 import { Fade } from 'reactstrap';
 import Multicar from './multiCarousel';
-import "../stylesheets/Popsover.css"
+import "../stylesheets/Popsover.css";
+import {Link} from "react-router-dom"
+import {NavLink } from 'reactstrap';
 
 
 
@@ -37,13 +39,14 @@ export default class PopsOver extends React.Component {
                             <div className="col text-center">
                              <h2>{this.props.title}
                             </h2>
-                             <Multicar id={this.props.id}
-                             />
+                             <Multicar id={this.props.id}/>
                              <p className="text-left mt-3">{this.props.description} ...</p>
                             </div>
                         </div>
                         <div className="text-center">
-                <button className="btn btn-green">Add to Cart</button>
+                            <NavLink href={"/detail/" + this.props.id}>
+                <button className="btn btn-green">More Info</button>
+                            </NavLink>
                         </div>
                     </div>
                 </Fade>

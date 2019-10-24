@@ -27,10 +27,10 @@ const mapStateToProps = reduxStore => {
                         <div className="col-sm-12 col-md-6 news-col">
                             <div className="custom-cont w-100">
                             {this.props.gameList.length > 0 && 
-                        <CardsFull bgImg={this.props.gameList[4].src}
-                                        title={this.props.gameList[4].title}
-                                        description={this.props.gameList[4].description}
-                                        price={this.props.gameList[4].price}
+                        <CardsFull bgImg={this.props.gameList[2].src}
+                                        title={this.props.gameList[2].title}
+                                        description={this.props.gameList[2].description}
+                                        price={this.props.gameList[2].price}
                             />  
                         }
                             </div>
@@ -40,7 +40,7 @@ const mapStateToProps = reduxStore => {
                             <div className="row">
                             {this.props.gameList.length > 0 && 
                                  this.props.gameList.filter(
-                                     game => game.keySearch == this.props.filter
+                                     game => game.keySearch[0] == this.props.filter
                                  ).slice(0,5).map(game =>{
                                     return(
                                      <div key={game._id} className="col-sm-12 col-md-6">

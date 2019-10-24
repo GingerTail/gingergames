@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import NavBar from "./Navbar";
 import Multic from "./bigCarousel";
 import GLibrary from "./GLibrary";
-import Footer from "./Footer";
-import Loader from 'react-loader-spinner'
 import {connect} from "react-redux"
 import NewsNav from "./newsNavs"
 
@@ -15,27 +13,14 @@ const mapStateToProps = reduxStore => {
 
 
 class Main extends Component {
-        state={
-            loader: false
-        }
+    
 
   
   render() {
     return (
       <>
-   {/*       <Loader
-         className="loader w-100 h-100"
-         type="BallTriangle"
-         color="green"
-         height={100}
-         width={100}
-         loder={setTimeout(() => {
-          this.setState({loader: true})
-         }, 3000)}
-         timeout={3000} //3 secs
-      /> */}
         <NavBar />
-      <div className={this.state.loader == true ? "d-none" : "animated fadeIn delay-1s d-block"}>
+      <div className="animated fadeIn delay-1s d-block">
 
         <div className="container mt-5">
           <div className="row banner">
@@ -63,7 +48,6 @@ class Main extends Component {
         <div className="mt-4 container">
           <NewsNav />
         </div>
-        <Footer />
         </div>
       </>
     );

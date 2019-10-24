@@ -33,56 +33,56 @@ const FilterNavs = (props) => {
 <h5>System</h5>
       <form action="#">
   <p>
-    <input type="radio" id="test1" name="radio-group"/>
-    <label for="test1">Windows</label>
+    <input type="radio" id="test6" name="radio-group"/>
+    <label for="test6">Windows</label>
   </p>
   <p>
-    <input type="radio" id="test2" name="radio-group"/>
-    <label for="test2">Playstation 4</label>
+    <input type="radio" id="test7" name="radio-group"/>
+    <label for="test7">Playstation 4</label>
   </p>
   <p>
-    <input type="radio" id="test3" name="radio-group"/>
-    <label for="test3">Xbox One</label>
+    <input type="radio" id="test8" name="radio-group"/>
+    <label for="test8">Xbox One</label>
   </p>
   <p>
-    <input type="radio" id="test4" name="radio-group"/>
-    <label for="test4">Google Stadia</label>
+    <input type="radio" id="test9" name="radio-group"/>
+    <label for="test9">Google Stadia</label>
   </p>
   <p>
-    <input type="radio" id="test5" name="radio-group"/>
-    <label for="test5">Nintendo Switch</label>
+    <input type="radio" id="test10" name="radio-group"/>
+    <label for="test10">Nintendo Switch</label>
   </p>
   <hr/>
 </form>
 <h5>Language</h5>
       <form action="#">
   <p>
-    <input type="radio" id="test1" name="radio-group"/>
-    <label for="test1">English</label>
+    <input type="radio" id="test11" name="radio-group"/>
+    <label for="test11">English</label>
   </p>
   <p>
-    <input type="radio" id="test2" name="radio-group"/>
-    <label for="test2">Italian</label>
+    <input type="radio" id="test12" name="radio-group"/>
+    <label for="test12">Italian</label>
   </p>
   <p>
-    <input type="radio" id="test3" name="radio-group"/>
-    <label for="test3">Espanol</label>
+    <input type="radio" id="test13" name="radio-group"/>
+    <label for="test13">Espanol</label>
   </p>
   <p>
-    <input type="radio" id="test4" name="radio-group"/>
-    <label for="test4">Francais</label>
+    <input type="radio" id="test14" name="radio-group"/>
+    <label for="test14">Francais</label>
   </p>
   <p>
-    <input type="radio" id="test5" name="radio-group"/>
-    <label for="test5">Deutusch</label>
+    <input type="radio" id="test15" name="radio-group"/>
+    <label for="test15">Deutusch</label>
   </p>
   <p>
-    <input type="radio" id="test6" name="radio-group"/>
-    <label for="test6">日本語</label>
+    <input type="radio" id="test16" name="radio-group"/>
+    <label for="test16">日本語</label>
   </p>
   <p>
-    <input type="radio" id="test7" name="radio-group"/>
-    <label for="test7">Other</label>
+    <input type="radio" id="test17" name="radio-group"/>
+    <label for="test17">Other</label>
   </p>
 <hr />
 </form>

@@ -58,9 +58,6 @@ const handleFilter= (event) =>{
           <NavItem>
             <NavLink href="#" onClick={() => this.props.toggleFilter("New")}>Newest</NavLink>
           </NavItem>
-          <NavItem>
-            <NavLink href="#" onClick={() => this.props.toggleFilter("Indies")}>Best Indies</NavLink>
-          </NavItem>
         </Nav>
         <News/>
       </div>

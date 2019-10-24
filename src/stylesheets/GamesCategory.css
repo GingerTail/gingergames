@@ -1,4 +1,5 @@
 .game-cat-container{
+    overflow: hidden;
     margin-top:7rem;
 }
 .input-group{
@@ -18,4 +19,12 @@
     padding-top:0.6rem;
     border-radius: 2px 0px 0px 2px;
     margin-bottom: 0.3rem;
+}
+
+.game-col{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.game-col:hover{
+    background-color:rgb(196, 196, 196)
 }

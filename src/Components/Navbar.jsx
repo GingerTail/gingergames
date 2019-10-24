@@ -46,24 +46,21 @@ export default class NavBar extends React.Component {
                 <DropdownToggle nav caret>
                   STORE
                 </DropdownToggle>
-                <DropdownMenu right className="animated fadeIn faster">
+                <DropdownMenu right className="navlink-search animated fadeIn faster">
                   <DropdownItem>
-                  <Link to={"/category/action"}>Action</Link>
+                  <NavLink href={"/category/Action"}>Action</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                  <Link to={"/category/adventure"}>Adventure</Link>
+                  <NavLink href={"/category/Adventure"}>Adventure</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                  <Link to={"/category/rpg"}>RPG</Link>
+                  <NavLink href={"/category/RPG"}>RPG</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                  <Link to={"/category/strategy"}>Strategy</Link>
+                  <NavLink href={"/category/Strategy"}>Strategy</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                  <Link to={"/category/indie"}>Indie</Link>
-                  </DropdownItem>
-                  <DropdownItem>
-                  <Link to={"/category/simulation"}>Simulation</Link>
+                  <NavLink href={"/category/Indie"}>Indie</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -95,7 +92,7 @@ export default class NavBar extends React.Component {
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="login">Log-in/SignUp</NavLink>
+                <NavLink href="/login">Log-in/SignUp</NavLink>
               </NavItem>
               <NavItem>
                 {this.state.logged ?   <NavLink href="https://github.com/reactstrap/reactstrap">Cart</NavLink> : ""}

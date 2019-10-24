@@ -5,6 +5,8 @@ import LoginPage from "./Components/Login";
 import GamesCategory from "./Components/GamesCategory";
 import NavBar from "./Components/Navbar";
 import {connect} from "react-redux"
+import Footer from "./Components/Footer";
+import InfoGame from "./Components/infoGame";
 
 const mapStateToProps = reduxStore => {
   console.log(reduxStore)
@@ -49,6 +51,7 @@ class RouterPage extends Component {
            <>
            <NavBar/>
         <Main />
+           <Footer/>
         </>)}
         />
         <Route path="/login" render={() => <LoginPage />}/>
@@ -56,7 +59,14 @@ class RouterPage extends Component {
            <>
            <NavBar/>
         <GamesCategory/>
+        <Footer/>
         </>)} />
+        <Route path="/detail/:idGame" render={() => 
+        <>
+         <NavBar/>
+        <InfoGame/>
+       {/*  <Footer/> */}
+        </>} />
       </Router>
     );
   }

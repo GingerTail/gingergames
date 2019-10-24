@@ -50,8 +50,7 @@ const mapStateToProps = reduxStore => {
             break;
             case 3:  this.setState({imgArray : this.state.imgArray.third})
        
-        }
-    
+        }  
 }
 
     render(){
@@ -107,11 +106,13 @@ const mapStateToProps = reduxStore => {
   return(
   <div key={games._id} className="">
       <img src={games.src} className="car-img" alt={games.title} />
+      {window.outerWidth >= "1024" ? 
       <PopsOver 
       id={games._id}
       title={games.title}
       description={games.description.slice(0,500)}
       />
+      : ""}
   </div>
   )
 })}

@@ -24,7 +24,7 @@ const mapStateToProps = reduxStore => {
                 <>
                 <div className="container d-block mb-4">
                     <div className="row">
-                        <div className="col-sm-12 col-md-6 news-col">
+                        <div className="col-sm-12 col-md-12 col-lg-6 news-col">
                             <div className="custom-cont w-100">
                             {this.props.gameList.length > 0 && 
                         <CardsFull bgImg={this.props.gameList[2].src}
@@ -35,8 +35,8 @@ const mapStateToProps = reduxStore => {
                         }
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-6 d-flex">
-                        <div className="container w-100">
+                        <div className="col-sm-12 col-md-12 col-lg-6 d-flex">
+                        <div className="container px-0 pt-2 w-100">
                             <div className="row">
                             {this.props.gameList.length > 0 && 
                                  this.props.gameList.filter(

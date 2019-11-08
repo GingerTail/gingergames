@@ -23,7 +23,7 @@ const handleFetchData= () =>{
       dispatch,
       getState
   ){
-      var response = await fetch("http://localhost:3450/games",  {method: "GET" });
+      var response = await fetch("https://gingergame-server.herokuapp.com/",  {method: "GET" });
       if(response.ok){
           console.log("Product GET Successfully");
               var result= await response.json()

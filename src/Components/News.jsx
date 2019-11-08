@@ -36,7 +36,7 @@ const mapStateToProps = reduxStore => {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 d-flex">
-                        <div className="container px-0 pt-2 w-100">
+                        <div className="container px-0 pt-2S w-100">
                             <div className="row">
                             {this.props.gameList.length > 0 && 
                                  this.props.gameList.filter(

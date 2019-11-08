@@ -4,7 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 this is a Work in Progress project
 
-## HOW TO RUN
+## Demo Link
+https://gingergames.herokuapp.com/
+
+## HOW TO RUN from your own
 Cuase it is still not uploaded on a public domain, to test it u'll have to follow these steps:
 
 SERVER SIDE

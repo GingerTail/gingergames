@@ -54,7 +54,11 @@ class RouterPage extends Component {
            <Footer/>
         </>)}
         />
-        <Route path="/login" render={() => <LoginPage />}/>
+        <Route path="/login" render={() => 
+        <div className="login-page">
+          <LoginPage />
+        </div>
+        }/>
           <Route path="/category/:cat"render={() => (
            <>
            <NavBar/>

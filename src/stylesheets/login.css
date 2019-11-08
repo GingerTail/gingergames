@@ -27,6 +27,7 @@
 }
 .image-l{
     position: absolute;
+    overflow: hidden;
     bottom:0%;
     top:15%;
     right:60%;
